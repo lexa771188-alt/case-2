@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Счётчик от -10 до 10</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="counter.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <main class="counter">
+      <h1>Счётчик</h1>
+
+      <div id="counter-value" class="counter-value zero">0</div>
+
+      <div class="buttons">
+        <button id="minus-button" class="minus-button" type="button">Минус</button>
+        <button id="plus-button" class="plus-button" type="button">Плюс</button>
+      </div>
+
+      <p id="limit-message" class="limit-message" hidden>
+        Вы достигли экстремального значения
+      </p>
+    </main>
+  </body>
+</html>
